@@ -62,15 +62,15 @@ function JsonObjectWidget(){
       <div className="flex flex-wrap items-start">
       
       <div>
-        <label class="block mx-4 mb-1">Name</label>
+        <label className="block mx-4 mb-1">Name</label>
         <input onChange={handleChange} name="name" value ={form.name} className="w-36 block p-2 mx-4 bg-gray-200 text-gray-700 border rounded focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="John Smith"/>
       </div>
       <div>
-        <label class="block mx-4 mb-1">Age</label>
+        <label className="block mx-4 mb-1">Age</label>
         <input onChange={handleChange} name="age" value ={form.age} className="w-36 block p-2 mx-4 bg-gray-200 text-gray-700 border rounded focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="0"/>
       </div>
       <div>
-        <label class="block mx-4 mb-1">isAvailable</label>
+        <label className="block mx-4 mb-1">isAvailable</label>
         <input onChange={handleChange} name ="isAvailable" value ={form.isAvailable} className="w-36 block p-2 mx-4 bg-gray-200 text-gray-700 border rounded focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="true"/>
       </div>
       </div>
@@ -78,8 +78,8 @@ function JsonObjectWidget(){
       </div>
       
       <div>
-        <label class="block mx-4 font-bold ">JSON Object</label>
-        <div className="p-2 border bg-black h-24 w-96 rounded-md mx-4 text-white">
+        <label className="block mx-4 font-bold ">JSON Object</label>
+        <div className="p-2 border bg-black h-24 w-64 rounded-md mx-4 text-white">
               {getText()}
             </div>
       </div>

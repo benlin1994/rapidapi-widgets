@@ -43,14 +43,14 @@ function JsonListWidget(){
       </button>
 
       <div>
-        <label class="block mx-4 mb-1">Item</label>
+        <label className="block mx-4 mb-1">Item</label>
         <input  value={form} onChange={handleChange} className="w-36 block p-2 mx-4 bg-gray-200 text-gray-700 border rounded focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Apple"/>
       </div>
       </div>
 
       <div>
-        <label class="block mx-4 font-bold ">JSON List</label>
-        <div className="p-2 border bg-black h-24 w-96 rounded-md mx-4 text-white">
+        <label className="block mx-4 font-bold ">JSON List</label>
+        <div className="p-2 border bg-black h-24 w-64 rounded-md mx-4 text-white">
             [{list.toString()}]
         </div>
       </div>
